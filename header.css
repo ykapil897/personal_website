@@ -1,0 +1,76 @@
+/* Apply Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* Background */
+.stApp {
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* Title Styling */
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Subtitle Styling */
+.stMarkdown h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #34495e;
+    text-align: center;
+    margin-top: 40px; /* Adds space before a new subheader */
+    margin-bottom: 10px;
+}
+
+/* Section Titles (Subheaders) */
+.stMarkdown h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #2c3e50;
+    margin-top: 50px; /* Creates space between sections */
+    margin-bottom: 15px;
+    border-bottom: 2px solid #2c3e50; /* Adds a subtle separator */
+    padding-bottom: 5px;
+}
+
+/* Content Styling */
+.stMarkdown p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    color: #555;
+    text-align: justify;
+    margin-bottom: 8px;
+}
+
+/* Bullet Points */
+.stMarkdown ul {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    color: #555;
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+/* Contact Details */
+.stMarkdown p strong {
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+/* Links Styling */
+a {
+    color: #2980b9;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
